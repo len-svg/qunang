@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-05-08T08:00:00+00:00",
+  "generated_at": "2026-05-08T01:21:56.869400+00:00",
   "jpy_to_cny": 0.0471,
-  "_note": "首次 cron 跑完会被 aggregator/compute.py 覆盖。这是种子数据。",
-  "products": {}
+  "products": {
+    "chanel_25_small_black": {
+      "name": "Chanel 25 Small 黑色小牛皮",
+      "lowest_cny": 41212,
+      "median_cny": 41212,
+      "official_cny": 49000,
+      "diff_vs_official": -7788,
+      "target_hit": true,
+      "observations_24h": 1,
+      "source_breakdown": {
+        "weibo": 1
+      }
+    },
+    "chanel_22bag_small_black_gold": {
+      "name": "Chanel 22Bag Small 黑金",
+      "lowest_cny": null,
+      "median_cny": null,
+      "official_cny": 45600,
+      "diff_vs_official": null,
+      "target_hit": false,
+      "observations_24h": 0,
+      "source_breakdown": {}
+    },
+    "lv_neverfull_mm_damier_ebene": {
+      "name": "LV Neverfull MM Damier Ebene",
+      "lowest_cny": 17097,
+      "median_cny": 17097,
+      "official_cny": 19500,
+      "diff_vs_official": -2403,
+      "target_hit": false,
+      "observations_24h": 1,
+      "source_breakdown": {
+        "x": 1
+      }
+    },
+    "chanel_coco_handle_small_caviar": {
+      "name": "Chanel Coco Handle Small Caviar（昵称'黄牛角'？待用户确认）",
+      "lowest_cny": null,
+      "median_cny": null,
+      "official_cny": 58500,
+      "diff_vs_official": null,
+      "target_hit": false,
+      "observations_24h": 0,
+      "source_breakdown": {}
+    }
+  }
 }

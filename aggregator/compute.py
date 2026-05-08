@@ -46,6 +46,8 @@ def main():
     }
 
     for pid, p in products.items():
+        if pid.startswith("_"):
+            continue  # _meta 等元数据 key 跳过
         own = [
             o for o in obs
             if o.get("product_id") == pid and o.get("price") and o.get("currency")
